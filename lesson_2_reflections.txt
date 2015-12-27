@@ -1,0 +1,2 @@
+What happens when you initialize a repository? Why do you need to do it?
+	It creates a .git file. You need to do this to track the history of changes to the files.
