@@ -1,0 +1,3 @@
+When would you want to use a remote repository rather than keeping all your work local?
+  You would want to use a remote repository if multiple people were contributing (and commiting) to the project.
+  Same goes for multiple devices. Lastly if you simply wanted viewable online or to have a backup of your git/project online.
