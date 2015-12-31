@@ -3,3 +3,22 @@ What happens when you initialize a repository? Why do you need to do it?
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 	It acts as a mid-point to allow you to set what files you want to be tracked as changes and commits are made.
+
+How can you use the staging area to make sure you have one commit per logical change?
+	You can use the staging area to be sure exactly what files and what changes will be made when a commit is made.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+	Testing out an experimental new feature, redesigning a working feature or layout, different version of the same project (difficulty, language, etc).
+	Branches would allow you to develop these new versions with clear labels without losing the master version.
+
+How do the diagrams help you visualize the branch structure?
+	They help me to see how commits and branches are connected (and how they are not) and equally how they can be traced back or how and where changes are applied.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+	Merging two branches allows us to include the changes from both branches together. We normally choose one of the two to merge into.
+	The mergee has all its changes, and therefore commits, added to the merger. The tip of the merger is often moved up too.
+	It is represented this way to be clear of the relationship and the trace back of all these branches and commits.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+	Pros would be being able to merge two files without having to manually go to each part of the code and copy paste. Very tedious. Also  allows multiple people
+	to merge their code without too much, if any, discussion. Cons would be if there's a conflict, which will have to be discussed and worked out, or peoples code affecting each others in negative ways or even redundantly doing the same thing twice, at least if git doesn't handle it for you.
